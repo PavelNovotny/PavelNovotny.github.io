@@ -36,7 +36,7 @@ with little modifications to install node.js and npm on Linux without sudo on yo
 Main Idea
 =========
 
-We install Node.js and npm using account we have, without sudo in "sandbox" environment - virtual machine. Then we
+We install Node.js and npm without sudo in "sandbox" environment - virtual machine. Then we
 copy the installed files to the target system and set all necessary settings we have made in virtual machine.   
 
 
@@ -49,7 +49,7 @@ Instructions
 * run terminal in your virtual machine and get the curl for your virtual machine. `sudo apt-get update`, then `sudo apt-get install curl`
 
 ##### Install Node.js
-* go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and download appropriate binary package for your system. In case you do not know whether to download 32 or 64 bit version use `uname -a` command to see details of your system. In my virtual Ubuntu the downloaded file was located at `~/Downloads/node-v4.4.0-linux-x64.tar.xz ` If you get another version name, please replace it throughout these steps.
+* go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and download appropriate binary package for your system. In case you do not know whether to download 32 or 64 bit version use `uname -a` command to see details of your system. In my virtual Ubuntu the downloaded file was located at `~/Downloads/node-v4.4.0-linux-x64.tar.xz ` If you get another version name, please replace this name throughout these steps.
 
 * extract the archive to your home directory
 ```
