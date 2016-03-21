@@ -2,7 +2,7 @@
 layout: post
 title: "How to install node.js and npm without sudo and curl on remote Linux."
 date: 2016-03-18 09:25:00 +0100
-comments: false
+comments: true
 ---
 
 There is sometimes a need to install  on a limited system. The account has no
@@ -140,3 +140,5 @@ Make sure you have the `source ~/.bashrc` in your `~/.bash_profile`
 
 That's all. Log using ssh again and try `node -v` and `npm list -g --depth=0` on your target system. Node.js and npm are now installed within home folder on your account.
 
+Comments:
+========
