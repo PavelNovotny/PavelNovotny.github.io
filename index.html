@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 {% for post in paginator.posts %}
@@ -30,4 +29,3 @@ comments: true
     <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
   {% endif %}
 </div>
-{% include disqus-comments.html %}
