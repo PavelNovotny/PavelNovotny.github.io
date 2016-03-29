@@ -28,7 +28,7 @@ instructions.
 Credits: in this great post [How to use npm global without sudo on
 OSX](http://www.johnpapa.net/how-to-use-npm-global-without-sudo-on-osx/) John
 Papa shows how to install npm global without sudo.  I have used this approach
-with little modifications to install node.js and npm on Linux without sudo on your account as well.
+with little modifications to install node.js and npm on Linux without sudo on local account as well.
 
 
 >Disclaimer: I offer no warranty nor guarantee of the success of these steps. These are simply what works in my experience. Follow these steps with a cautious eye as you would any steps you find on the internet.
